@@ -15,5 +15,10 @@ if (Object.const_defined?("Formtastic") && Gem.loaded_specs["formtastic"].versio
     end
   end
 
+else
+  
+  class RichInput
+  end
+
 end
 
